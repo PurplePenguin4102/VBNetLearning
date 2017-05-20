@@ -7,7 +7,10 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+  <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Image x:Name="Logo" Height="100"  Source="/Assets/images.png" Width="100"/>
+    <Button Content="Start" HorizontalAlignment="Center" Margin="0,120,0,0" VerticalAlignment="Center" Width="100" Click="Start_Click"/>
+    <MediaElement x:Name="Player" HorizontalAlignment="Center" Margin="0,160,0,0" VerticalAlignment="Center" Width="100" Source="Assets/Sounds/startup.wav"/>
 
-    </Grid>
+  </Grid>
 </Page>

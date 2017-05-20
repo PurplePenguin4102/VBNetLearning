@@ -6,4 +6,8 @@
 Public NotInheritable Class MainPage
     Inherits Page
 
+    Private Sub Start_Click(sender As Object, e As RoutedEventArgs)
+        Player.Play()
+    End Sub
+
 End Class
